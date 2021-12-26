@@ -4,4 +4,4 @@ clean:
 	rm -f main.bin
 
 compile:
-	clang -g main.c -o main.bin
+	clang -g main.c -o main.bin -lm
